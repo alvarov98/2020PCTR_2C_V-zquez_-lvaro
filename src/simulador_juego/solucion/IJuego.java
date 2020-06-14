@@ -1,16 +1,10 @@
 package simulador_juego.solucion;
-
 /*
- * @author Álvaro Vázquez Suárez
- * @date 14/06/2020
- * @name Práctica Programación Concurrente 2C
+ * @author <a href="mailto:xvs1001@alu.ubu.es">Álvaro Vázquez</a>
  */
 
 public interface IJuego {
-
-	// Definir los métodos de la Interfaz
-
-	public abstract void generarEnemigo(int tipoEnemigo);
-
-	public abstract void eliminarEnemigo(int tipoEnemigo);
+	// DONE Definir los métodos de la Interfaz
+	public void generarEnemigo(int tipoEnemigo);
+	public void eliminarEnemigo(int tipoEnemigo) throws InterruptedException;
 }
