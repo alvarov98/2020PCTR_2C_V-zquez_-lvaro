@@ -10,7 +10,7 @@ public interface IJuego {
 
 	// Definir los métodos de la Interfaz
 
-	public void generarEnemigo(int tipoEnemigo);
+	public abstract void generarEnemigo(int tipoEnemigo);
 
-	public void eliminarEnemigo(int tipoEnemigo);
+	public abstract void eliminarEnemigo(int tipoEnemigo);
 }
